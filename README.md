@@ -1,4 +1,4 @@
-## Live Demo: https://curator69.github.io/space-travel-site/
+Live Demo: https://curator69.github.io/space-travel-site/
 
 # Frontend Mentor - Space tourism website
 
