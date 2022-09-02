@@ -64,3 +64,13 @@ function hideContent(parent, content) {
 function showContent(parent, content) {
   parent.querySelector(content).removeAttribute("hidden");
 }
+
+let data;
+
+async function fetchData() {
+  const response = await fetch("./data.json");
+  data = await response.json();
+}
+console.log(data);
+
+fetchData();
